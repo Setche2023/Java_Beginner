@@ -18,10 +18,10 @@ public class maxNumber {
         c = scanner.nextInt();
 
         scanner.close();
-       
-        int max = Math.max(Math.max(a, b), c);
-        System.out.println("Le nombre le plus grand est: " + max);
 
-    } 
-    
+        int max = Math.max(Math.max(a, b), c);
+        System.out.println("Le nombre le plus grand est: " + max + "!");
+
+    }
+
 }
